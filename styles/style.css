@@ -1,0 +1,125 @@
+* {
+	font-family: arial;
+}
+
+body {
+	background-color: rgb(241,241,241);
+}
+
+.content {
+	width: 1024px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.coloumn {
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.people {
+	margin-right: 47px;
+}
+
+.recent	{
+	margin-left: 46px;
+}
+
+
+/*SEARCH>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+.search-form {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.search-form .search {
+	width: 90%;
+	font-size: 97px;
+    font-weight: 600;
+    border: none;
+	outline: none;
+    color: #ec5a62;
+    background-color: rgb(241,241,241);
+}
+
+.search-form .lens {
+	border: none;
+	background-color: white;
+	color: #c2c2c2;
+	outline: none;
+    background-color: rgb(241,241,241);
+}
+
+.search-form .lens .fa-search {
+	font-size: 90px;
+	color: #c2c2c2;
+	transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.search-form .lens .fa-search:hover {
+	cursor: pointer;
+	transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+
+/*lists>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+.coloumn {
+	width: 30%;
+}
+
+.coloumn h2 {
+	font-family: arial;
+	color: #c2c2c2;
+	font-size: 18px;
+}
+
+.list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.list li {
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.list a {
+	color: #c2c2c2;
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	background-color: rgba(118,117,128,0.05);
+}
+
+.people .list img {
+	vertical-align: middle;
+	width: 50px;
+	border-radius: 25px;
+}
+
+.list img {
+	vertical-align: middle;
+	width: 50px;
+}
+
+
+
+.list li a span {
+	padding-left: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+    font-weight: 600;
+    width: calc(100% - 70px);
+}
+
+.list li a:hover {
+	background-color: rgba(118,117,128,0.1);
+	color: #ec5a62;
+}
